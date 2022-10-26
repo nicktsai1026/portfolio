@@ -2,33 +2,31 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "title": "Nick Tsai",
+    "titleTemplate": "%s · Portfolio",
+    "description": "I am a Full-stack developer with 4+ years of experience building responsive websites and mobile apps in the financial industry. Proficient with JavaScript, HTML, CSS, jQuery, Node.js, PostgreSQL, AWS, and JS frontend Frameworks like Polymer and React. I actively evaluate and upgrade my skills to stay up-to-date on web development.",
+    "author": "Nick Tsai",
+    "avatar": "../content/images/avatar.jpeg",
+    "bio": "Full Stack Developer | JavaScript | Node.js | AWS Devops | PostgreSQL | React",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/nicktsai1026",
+      "linkedin": "https://www.linkedin.com/in/nick-tsai-2995b0136/",
+      "mail": "mailto:nicktsai1026@gmail.com"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Nick Tsai" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Experience", "url": "/#experience"},
+        { "label": "Projects", "url": "/#projects" },
+        { "label": "Contact", "url": "/#contact" }
       ],
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": "/NickTsai_resume.pdf"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
@@ -36,7 +34,7 @@
       ]
     },
     "featureToggles": {
-      "useDarkModeAsDefault": false,
+      "useDarkModeAsDefault": true,
       "useDarkModeBasedOnUsersPreference": true,
       "useCookieBar": false
     }
