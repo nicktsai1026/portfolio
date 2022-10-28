@@ -15,9 +15,16 @@
       }
     },
     {
-      "label": "React.js",
+      "label": "Next.js",
       "image": {
-        "src": "../../images/react.png",
+        "src": "../../images/nextjs.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Gatsby.js",
+      "image": {
+        "src": "../../images/gatsby.png",
         "alt": ""
       }
     },
@@ -60,6 +67,13 @@
       "label": "Git",
       "image": {
         "src": "../../images/git.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "RabbitMQ",
+      "image": {
+        "src": "../../images/rabbitmq.png",
         "alt": ""
       }
     }
