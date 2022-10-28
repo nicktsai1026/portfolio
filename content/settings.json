@@ -20,6 +20,7 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Experience", "url": "/#experience"},
+        { "label": "Skills", "url": "/#skills"},
         { "label": "Projects", "url": "/#projects" },
         { "label": "Contact", "url": "/#contact" }
       ],
@@ -28,10 +29,7 @@
         "label": "Resume",
         "url": "/NickTsai_resume.pdf"
       },
-      "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
-      ]
+      "footer": []
     },
     "featureToggles": {
       "useDarkModeAsDefault": true,
