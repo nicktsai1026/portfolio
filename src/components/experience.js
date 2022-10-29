@@ -5,6 +5,7 @@ export default function AboutSection(props) {
   return (
     <Animation type="fadeUp">
         <Section anchor={props.sectionId} heading={props.heading}>
+            <h2>Title: Software Engineer</h2>
             <ul>
                 <li>Focused on developing and revamping the website & mobile app, including UI/UX and SEO performance optimization.</li>
                 <li>Involved in developing and maintaining Amazon Lambda, CloudFront, EC2, RDS, Elastic Load Balancing, and other services of the AWS infrastructure.</li>
