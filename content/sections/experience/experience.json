@@ -1,0 +1,40 @@
+{
+  "companies": [
+    {
+      "name": "10Life",
+      "title": "Lead Engineer",
+      "period": "February 2021 - April 2022",
+      "summary": "",
+      "duties": [
+        "Focused on developing and revamping the website & mobile app, including UI/UX and SEO performance optimization.",
+        "Involved in developing and maintaining Amazon Lambda, CloudFront, EC2, RDS, Elastic Load Balancing, and other services of the AWS infrastructure.",
+        "Collaborated closely with other developers to develop new features and deliver on time."
+      ],
+      "website": "https://www.10life.com"
+    }, 
+    {
+      "name": "10Life",
+      "title": "Software Engineer",
+      "period": "April 2018 - February 2021",
+      "summary": "",
+      "duties": [
+        "Participated in back-end development, including RESTful APIs, database, and internal admin system.",
+        "Contributed implementation of the automation testing feature on CI/CD by using Cypress."
+      ],
+      "website": "https://www.10life.com"
+    },
+    {
+      "name": "Entinux",
+      "title": "Project Specialist",
+      "period": "October 2017 - April 2018",
+      "summary": "",
+      "duties": [
+        "Assisted project manager in managing the sim card registration system project, including filing issue reports, gathering information, and tracking developer progress.",
+        "Collaborated with other developers to develop a real-time map mobile app and admin console system by Ionic, Node.js, Handlebars.js, and MongoDB.",
+        "Developed a 24/7 network monitoring system app by Ionic, clients will receive alerts before server break-down and reach out to the support team for maintenance."
+      ],
+      "website": "https://hk.entinux.com/"
+    }
+  ]
+}
+  
