@@ -8,7 +8,7 @@ import {
   Page,
   Seo,
 } from "gatsby-theme-portfolio-minimal";
-import ExperienceSection from '../components/experience';
+import ExperienceSection from '../sections/experience';
 
 export default function IndexPage() {
   return (
