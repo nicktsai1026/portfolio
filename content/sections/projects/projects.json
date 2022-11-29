@@ -2,40 +2,40 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🕹️ Website Game",
+      "title": "CODING MONKEY",
+      "description": "Coding Monkey is an endless runner game. It is designed to be played on a computer as well as mobile device. The hero can move forward in the game infinitely by jumping upwards. It moves up and down automatically. The hero collects reward items to score points and loses points when it collides with penalty items. The hero can shoot certain item sprites. The game becomes more difficult as it goes on,or when the hero collides with certain special item sprites. The game is over when the hero falls below the game stage out of the screen, or when it hits certain special item sprites.",
+      "tags": ["JavaScript", "Phaser", "HTML"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/codingMonkey.jpg",
+        "alt": "Try it now!",
+        "linkTo": "https://codingmonkey.surge.sh/"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/nicktsai1026/projectgame"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://codingmonkey.surge.sh/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "🧰 Media",
+      "title": "LIKEBOOK",
+      "description": "Facebook is a comment social medial, people use it everyday and like facebook page. When those page are getting more and more, it's difficult to check every pages you like. We separate it by each category, user can easily check all the pages that user liked. Click Timeline button, user can see a chart that is user liked those pages from the first page until now. Click Friends button, user can check how many pages that you liked with your friends if user's friends also use this website.",
+      "tags": ["Node.js", "MongoDB", "Express.js", "Handlebars", "Bootstrap"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/facebook.jpeg",
+        "alt": "Explore what you liked!"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/nicktsai1026/fbPageHandlebars"
         }
       ]
     }
@@ -43,6 +43,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/nicktsai1026?tab=repositories"
   }
 }
