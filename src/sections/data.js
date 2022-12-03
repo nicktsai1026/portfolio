@@ -9,7 +9,6 @@ export const ExperienceDataSource = () => {
                         duties
                         name
                         period
-                        summary
                         title
                         website
                     }
