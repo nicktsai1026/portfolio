@@ -3,7 +3,18 @@
     {
       "name": "10Life",
       "title": "Lead Engineer",
-      "period": "February 2021 - April 2022",
+      "period": "Feb 2021 - Apr 2022",
+      "summary": "",
+      "duties": [
+        "Participated in back-end development, including RESTful APIs, database, and internal admin system.",
+        "Contributed implementation of the automation testing feature on CI/CD by using Cypress."
+      ],
+      "website": "https://www.10life.com"
+    }, 
+    {
+      "name": "10Life",
+      "title": "Software Engineer",
+      "period": "Apr 2018 - Feb 2021",
       "summary": "",
       "duties": [
         "Focused on developing and revamping the website & mobile app, including UI/UX and SEO performance optimization.",
@@ -11,22 +22,11 @@
         "Collaborated closely with other developers to develop new features and deliver on time."
       ],
       "website": "https://www.10life.com"
-    }, 
-    {
-      "name": "10Life",
-      "title": "Software Engineer",
-      "period": "April 2018 - February 2021",
-      "summary": "",
-      "duties": [
-        "Participated in back-end development, including RESTful APIs, database, and internal admin system.",
-        "Contributed implementation of the automation testing feature on CI/CD by using Cypress."
-      ],
-      "website": "https://www.10life.com"
     },
     {
       "name": "Entinux",
       "title": "Project Specialist",
-      "period": "October 2017 - April 2018",
+      "period": "Oct 2017 - Apr 2018",
       "summary": "",
       "duties": [
         "Assisted project manager in managing the sim card registration system project, including filing issue reports, gathering information, and tracking developer progress.",
