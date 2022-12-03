@@ -23,7 +23,7 @@ export const Point = styled.span`
     width: .75rem;
     height: .75rem;
     border-radius: 100%;
-    border: 1px solid rgb(195, 218, 254);
+    border: 1px solid rgb(79, 209, 197);
     background-color: rgb(235, 244, 255);
     position: absolute;
     left: -6px;
