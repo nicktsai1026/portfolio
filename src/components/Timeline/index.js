@@ -1,18 +1,22 @@
 import React from "react";
 import * as Styled from './styles';
 
-export const Timeline = ({period, company, title, website}) => {
+export const Timeline = ({company}) => {
     return (
         <Styled.Timeline>
             <Styled.Point />
             <Styled.Details>
-            <Styled.Date>
-                {period}
-            </Styled.Date>
-            <Styled.Title>{company}</Styled.Title>
-            <Styled.Subtitle>{title}</Styled.Subtitle>
+                <Styled.Date>
+                    {company.period}
+                </Styled.Date>
+                <Styled.Title>{company.name}</Styled.Title>
+                <Styled.Subtitle>{company.title}</Styled.Subtitle>
             </Styled.Details>
-            <Styled.Content>{website}</Styled.Content>
+            <Styled.Content>
+                {company.duties.map((duty, index) => (
+                    <li key={index}>{duty}</li>
+                ))}
+            </Styled.Content>
         </Styled.Timeline>
     );
 }
