@@ -1,37 +1,82 @@
-// import styled from 'styled-components';
-// import tw from 'tailwind.macro';
+import styled from 'styled-components';
 
-// export const Timeline = styled.div`
-//   ${tw`flex flex-col sm:flex-row w-full p-4 relative border-l border-indigo-200`};
+export const Timeline = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .75rem;
+    padding-bottom: 0;
+    position: relative;
+    border-left: 1px solid rgb(195, 218, 254);
 
-//   &:last-child {
-//     ${tw`pb-0`};
-//   }
-// `;
+    &:after, &:before {
+        box-sizing: border-box;
+        border: 0 solid #e2e8f0;
+    }
 
-// export const Details = styled.div`
-//   ${tw`w-full sm:w-1/3`};
-// `;
+    @media (min-width: 640px) {
+        flex-direction: row;
+    }
+`;
 
-// export const Content = styled.div`
-//   ${tw`w-full sm:w-2/3 mt-4 sm:mt-0`};
-// `;
+export const Point = styled.span`
+    width: .75rem;
+    height: .75rem;
+    border-radius: 100%;
+    border: 1px solid rgb(195, 218, 254);
+    background-color: rgb(235, 244, 255);
+    position: absolute;
+    left: -6px;
+    top: 20px;
+`;
 
-// export const Title = styled.div`
-//   ${tw`font-semibold mt-3`};
-// `;
+export const Details = styled.div`
+    width: 100%;
 
-// export const Subtitle = styled.div`
-//   ${tw`text-xs`};
-// `;
+    @media (min-width: 640px) {
+        width: 30%;
+    }
+`;
 
-// export const Date = styled.div`
-//   ${tw`text-xs border  border-teal-400 rounded-full px-2`};
-//   width: fit-content;
-// `;
+export const Date = styled.label`
+    font-size: .75rem;
+    border: 1px solid rgb(79, 209, 197);
+    border-radius: 9999px;
+    padding: .2rem .5rem;
+    width: fit-content;
+`;
 
-// export const Point = styled.span`
-//   ${tw`w-3 h-3 border border-indigo-200 bg-indigo-100 rounded-full absolute`};
-//   left: -6px;
-//   top: 20px;
-// `;
+export const Title = styled.div`
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: .5rem;
+    margin-left: .5rem;
+`;
+
+export const Subtitle = styled.div`
+    font-size: .75rem;
+    margin-left: .5rem;
+`;
+
+export const Content = styled.div`
+    width: 100%;
+    margin-top: 1rem;
+    position: relative;
+    
+    @media (min-width: 640px) {
+        width: 66%;
+        margin-top: 0px;
+    }
+    
+    li {
+        list-style: none;
+        padding-left: 1rem;
+        margin-bottom: .5rem;
+
+      &:before {
+        content: "▹";
+        position: absolute;
+        left: 0px;
+        color: var(--green);
+    }
+`;
