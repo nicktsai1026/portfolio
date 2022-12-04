@@ -6,16 +6,16 @@ export const Timeline = ({company}) => {
         <Styled.Timeline>
             <Styled.Point />
             <Styled.Details>
-                <Styled.Date>
-                    {company.period}
-                </Styled.Date>
+                <Styled.Date>{company.period}</Styled.Date>
                 <Styled.Title>{company.name}</Styled.Title>
                 <Styled.Subtitle>{company.title}</Styled.Subtitle>
             </Styled.Details>
             <Styled.Content>
-                {company.duties.map((duty, index) => (
-                    <li key={index}>{duty}</li>
-                ))}
+                <ul>
+                    {company.duties.map((duty, index) => (
+                        <li key={index}>{duty}</li>
+                    ))}
+                </ul>
             </Styled.Content>
         </Styled.Timeline>
     );
