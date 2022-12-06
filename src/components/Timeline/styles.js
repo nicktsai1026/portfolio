@@ -53,19 +53,23 @@ export const Title = styled.div`
     margin-left: .5rem;
 `;
 
-export const Subtitle = styled.div`
-    font-size: .75rem;
-    margin-left: .5rem;
+export const Subtitle = styled.a`
+    font-size: 1rem;
+    margin-left: .3rem;
+    color: var(--code-block-keyword);
+
+    &:hover {
+        box-shadow: inset 0 -0.5em 0 var(--code-block-fun);
+        transition: box-shadow 0.3s ease-out;
+    }
 `;
 
 export const Content = styled.div`
     width: 100%;
-    margin-top: 1rem;
     position: relative;
     
     @media (min-width: 640px) {
         width: 66%;
-        margin-top: 0px;
     }
     
     li {

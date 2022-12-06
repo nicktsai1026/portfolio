@@ -7,8 +7,10 @@ export const Timeline = ({company}) => {
             <Styled.Point />
             <Styled.Details>
                 <Styled.Date>{company.period}</Styled.Date>
-                <Styled.Title>{company.name}</Styled.Title>
-                <Styled.Subtitle>{company.title}</Styled.Subtitle>
+                <Styled.Title>
+                    {company.title}
+                    <Styled.Subtitle href={company.website}>@ {company.name}</Styled.Subtitle>
+                </Styled.Title>
             </Styled.Details>
             <Styled.Content>
                 <ul>
