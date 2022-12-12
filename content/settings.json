@@ -6,7 +6,7 @@
     "titleTemplate": "%s · Portfolio",
     "description": "I am a Full-stack developer with 4+ years of experience building responsive websites and mobile apps in the financial industry. Proficient with JavaScript, HTML, CSS, jQuery, Node.js, PostgreSQL, AWS, and JS frontend Frameworks like Polymer and React. I actively evaluate and upgrade my skills to stay up-to-date on web development.",
     "author": "Nick Tsai",
-    "avatar": "../content/images/avatar.jpeg",
+    "avatar": "../content/images/avatar.jpg",
     "bio": "Full Stack Developer | Node.js | AWS Devops | PostgreSQL | React",
     "social": {
       "github": "https://github.com/nicktsai1026",
