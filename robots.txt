@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.nicktsai.space/sitemap/sitemap-index.xml
+Host: https://www.nicktsai.space
