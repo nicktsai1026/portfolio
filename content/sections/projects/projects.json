@@ -2,6 +2,28 @@
   "projects": [
     {
       "visible": true,
+      "category": "📓 Commerce",
+      "title": "RECIPE BOOK",
+      "description": "Discover a world of culinary delights with our e-Commerce recipe book website. Browse through a vast collection of tantalizing recipes, ranging from international cuisines to specialized dietary preferences. Elevate your cooking skills and embark on a flavorful journey from the comfort of your own kitchen.",
+      "tags": ["TypeScript", "Next.js", "TailwindCSS"],
+      "image": {
+        "src": "../../images/recipe-book.png",
+        "alt": "Try it now!",
+        "linkTo": "https://recipe-book-kappa.vercel.app/"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/nicktsai1026/recipe-book"
+        },
+        {
+          "type": "external",
+          "url": "https://recipe-book-kappa.vercel.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "🕹️ Website Game",
       "title": "CODING MONKEY",
       "description": "Coding Monkey is an endless runner game. It is designed to be played on a computer as well as mobile device. The hero can move forward in the game infinitely by jumping upwards. It moves up and down automatically. The hero collects reward items to score points and loses points when it collides with penalty items. The hero can shoot certain item sprites. The game becomes more difficult as it goes on,or when the hero collides with certain special item sprites. The game is over when the hero falls below the game stage out of the screen, or when it hits certain special item sprites.",
